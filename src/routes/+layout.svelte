@@ -3,7 +3,7 @@
 	import '../app.css';
 </script>
 
-<div class="bg-gradient-to-r from-slate-900 to-slate-700">
+<div class="bg-slate-900">
 	<Navbar />
 	<div class="p-8">
 		<slot />
