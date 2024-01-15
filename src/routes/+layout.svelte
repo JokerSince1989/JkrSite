@@ -7,9 +7,11 @@
 	let isModalOpen = true;
 
 	onMount(() => {
-		if (window.JSSpeccy) {
-			emu = JSSpeccy(document.getElementById('jsspeccy'), { zoom: 3, machine: 128, sandbox: true });
-		}
+		emu = window.JSSpeccy(document.getElementById('jsspeccy'), {
+			zoom: 3,
+			machine: 128,
+			sandbox: true
+		});
 	});
 </script>
 

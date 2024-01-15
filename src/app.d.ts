@@ -7,6 +7,10 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
+
+	interface Window {
+		JSSpeccy: (element: HTMLElement | null, options: any) => any;
+	}
 }
 
 export {};
