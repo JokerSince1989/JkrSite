@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import '../app.css';
-	import Logo from '$lib/components/Logo.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 
 	let emu: any;
+	/*
 	let isModalOpen = false;
 
 	onMount(() => {
@@ -13,9 +13,7 @@
 			machine: 128,
 			sandbox: true
 		});
-	});
-
-	export const prerender = true;
+	});*/
 </script>
 
 <svelte:head>
@@ -30,7 +28,7 @@
 		<slot />
 	</div>
 </div>
-
+<!-- 
 {#if isModalOpen}
 	<div class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
 		<div class="relative bg-white p-1 rounded-lg shadow-lg">
@@ -57,3 +55,4 @@
 		</div>
 	</div>
 {/if}
+-->
