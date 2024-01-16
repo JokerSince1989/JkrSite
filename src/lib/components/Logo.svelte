@@ -33,41 +33,11 @@
 
                          J   O   K   E   R
     </pre>
-	<div class="font-mono bg-white gradient-text scanlines crt-colors ascii-art text-[1.6vh]">
-		<Typewriter mode="loop" cursor={false} interval={60}>
-			<span>Joker Team welcomes you!</span>
-			<span>ZX Spectrum</span>
-			<span>Amiga 500</span>
-			<span>Atari ST/E</span>
-			<span>Nintendo Game Boy</span>
-			<span>too good, to be true...</span>
-			<span>...since 1990!</span>
-			<span>Our comrades:</span>
-			<span>At0m</span>
-			<span>Dalthon</span>
-			<span>Don Kichote</span>
-			<span>Dox</span>
-			<span>Dreamer</span>
-			<span>e!ghtbm</span>
-			<span>Gazela</span>
-			<span>GBH</span>
-			<span>Jammer</span>
-			<span>Kalosz</span>
-			<span>MCH</span>
-			<span>Pator</span>
-			<span>Peters</span>
-			<span>Sachy</span>
-			<span>Vasyl</span>
-			<span>wermi</span>
-			<span>Yoga</span>
-			<span>Zlew</span>
-		</Typewriter>
-	</div>
 </div>
 
 <style>
 	.crt-colors {
-		animation: 0.01s linear 1s infinite alternate textShadow;
+		animation: 0.01s linear infinite alternate textShadow;
 	}
 
 	.scanlines {

@@ -3,13 +3,18 @@
 </script>
 
 <nav
-	class="sticky top-0 z-40 backdrop-blur flex text-slate-200 p-4 font-mono bg-slate-800/60 items-center justify-between"
+	class="backdrop-blur flex text-slate-200 p-4 font-mono bg-slate-800/60 items-center justify-between"
 >
 	<div class="font-xl flex gap-6">
 		<div class="font-bold font-mono">Joker</div>
 		<div class="gap-4 md:flex hidden items-center">
-			<a href="#home" class="hover:text-blue-500 transition-colors">Pouet</a>
-			<a href="#contact" class="hover:text-blue-500 transition-colors">Demozoo</a>
+			<a
+				href="https://www.pouet.net/groups.php?which=2992"
+				class="hover:text-blue-500 transition-colors">Pouet</a
+			>
+			<a href="https://demozoo.org/groups/10844/" class="hover:text-blue-500 transition-colors"
+				>Demozoo</a
+			>
 		</div>
 	</div>
 	<Typewriter mode="loop" interval={60}>
@@ -20,7 +25,7 @@
 		<span>Nintendo Game Boy</span>
 		<span>too good, to be true...</span>
 		<span>...since 1990!</span>
-		<span>Partyzanci:</span>
+		<span>Our comrades:</span>
 		<span>At0m</span>
 		<span>Dalthon</span>
 		<span>Don Kichote</span>

@@ -36,14 +36,6 @@
 							Download
 						</a>
 					{/if}
-					{#if prod.download}
-						<button
-							on:click={() => (showEmu = true)}
-							class="p-1 font-mono text-sm border border-slate-200 rounded hover:bg-slate-200 hover:text-black transition-colors"
-						>
-							Demozoo
-						</button>
-					{/if}
 				</div>
 			</div>
 		</div>
@@ -55,7 +47,9 @@
 			</Typewriter>
 			<Typewriter delay={60} interval={40} keepCursorOnFinish={true}>
 				<h7 class="font-mono text-sm text-slate-400">
-					{prod.type}
+					{prod.type.replace(/,/g, ', ') +
+						', ' +
+						prod.platforms[Object.keys(prod.platforms)[0]].name}
 				</h7>
 			</Typewriter>
 		</div>

@@ -10,5 +10,3 @@ export const load: PageServerLoad = async () => {
 		groupInfo: data
 	};
 };
-
-export const prerender = true;

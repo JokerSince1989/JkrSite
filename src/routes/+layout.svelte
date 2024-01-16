@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import '../app.css';
 	import Logo from '$lib/components/Logo.svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
 
 	let emu: any;
 	let isModalOpen = false;
@@ -13,15 +14,17 @@
 			sandbox: true
 		});
 	});
+
+	export const prerender = true;
 </script>
 
 <svelte:head>
 	<script src="/jsspeccy/jsspeccy.js"></script>
 </svelte:head>
 
-<div class="bg-black">
-	<div class="p-12 h-screen">
-		<Logo />
+<div class="bg-black/70">
+	<div class="sticky top-0 p-2 z-40">
+		<Navbar />
 	</div>
 	<div class="p-8">
 		<slot />
