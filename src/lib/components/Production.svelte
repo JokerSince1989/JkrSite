@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="bg-slate-800 border border-slate-800 transition transform hover:scale-[102%] duration-200 ease-in-out rounded-lg overflow-hidden group relative"
+	class="bg-slate-800 border border-slate-800 transition transform duration-200 ease-in-out rounded-lg overflow-hidden group relative"
 	on:mouseenter={() => (isHoveredOrActive = true)}
 	on:mouseleave={() => (isHoveredOrActive = false)}
 	on:touchstart={() => (isHoveredOrActive = true)}
@@ -16,7 +16,7 @@
 >
 	<div class="w-full h-48 overflow-hidden">
 		<img
-			class="object-cover w-full h-full transition-all duration-450 hover:scale-[102%] {isHoveredOrActive
+			class="object-cover w-full h-full transition-all duration-450 {isHoveredOrActive
 				? 'filter-class'
 				: ''}"
 			src={prod.screenshot}

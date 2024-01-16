@@ -1,10 +1,10 @@
 <script lang="ts">
-	import Navbar from '$lib/components/Navbar.svelte';
 	import { onMount } from 'svelte';
 	import '../app.css';
+	import Logo from '$lib/components/Logo.svelte';
 
 	let emu: any;
-	let isModalOpen = true;
+	let isModalOpen = false;
 
 	onMount(() => {
 		emu = window.JSSpeccy(document.getElementById('jsspeccy'), {
@@ -19,8 +19,10 @@
 	<script src="/jsspeccy/jsspeccy.js"></script>
 </svelte:head>
 
-<div class="bg-slate-900">
-	<Navbar />
+<div class="bg-black">
+	<div class="p-12 h-screen">
+		<Logo />
+	</div>
 	<div class="p-8">
 		<slot />
 	</div>
