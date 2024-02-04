@@ -15,6 +15,9 @@
 			<a href="https://demozoo.org/groups/10844/" class="hover:text-blue-500 transition-colors"
 				>Demozoo</a
 			>
+			<a href="https://github.com/JokerSince1989" class="hover:text-blue-500 transition-colors"
+				>Github</a
+			>
 		</div>
 	</div>
 	<Typewriter mode="loop" interval={60}>
@@ -24,7 +27,7 @@
 		<span>Atari ST/E</span>
 		<span>Nintendo Game Boy</span>
 		<span>too good, to be true...</span>
-		<span>...since 1990!</span>
+		<span>...since 1989!</span>
 		<span>Our comrades:</span>
 		<span>At0m</span>
 		<span>Dalthon</span>

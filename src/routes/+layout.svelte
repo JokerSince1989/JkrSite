@@ -1,10 +1,9 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import '../app.css';
 	import Navbar from '$lib/components/Navbar.svelte';
 
-	let emu: any;
-	/*
+	/*let emu: any;
+	
 	let isModalOpen = false;
 
 	onMount(() => {
@@ -16,11 +15,11 @@
 	});*/
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
 	<script src="/jsspeccy/jsspeccy.js"></script>
-</svelte:head>
+</svelte:head> -->
 
-<div class="bg-black/70">
+<div>
 	<div class="sticky top-0 p-2 z-40">
 		<Navbar />
 	</div>
